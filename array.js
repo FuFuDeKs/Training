@@ -1,5 +1,5 @@
-const colors = ["NAME1", "NAME2", "NAME3"];
-colors[3] = "NAME4";
-colors.forEach((item, index) => {
-  console.log(`${index}: ${item}`);
+const names = ["NAME1","NAME2","NAME3"]
+names[3] = "NAME3"
+names.forEach((item) => {
+  console.log(`${item}`);
 });
